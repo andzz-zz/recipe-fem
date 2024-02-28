@@ -1,0 +1,177 @@
+
+body {
+  background-color: hsl(30, 54%, 90%);
+  max-width: 1440px;
+  min-width: 375px; 
+  height: auto;
+}
+
+.container {
+  background-color: hsl(0, 0%, 100%);
+  max-width: 100%;
+  height: auto;
+  overflow: hidden;
+  margin: auto;
+  border-radius: 15px;
+  padding-top: 30px;
+}
+
+img {
+  display: flex;
+  margin: auto;
+  height: auto;
+  max-width: 100%;
+  border-radius: 10px;
+  position: center;
+}
+
+h1 {
+  font-family: "Young Serif", serif; 
+  font-weight: 400;
+  color:hsl(24, 5%, 18%);
+  margin-left: 25px;
+}
+
+h2 {
+  font-family: "Young Serif", serif; 
+  font-weight: 400;
+  color: hsl(14, 45%, 36%);
+margin: 30px 30px;
+}
+
+h3{
+  font-family: "Outfit", sans-serif;
+  font-weight: 700;
+  color: hsl(332, 51%, 32%);
+  margin: 25px 25px;
+
+}
+  p{
+  font-family: "Outfit", sans-serif; 
+  font-size: 16px;
+  margin: 25px 25px;
+  color: hsl(30, 10%, 34%);
+  }
+
+  .preparation {
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 10px;
+    padding: 5px 5px;
+    margin: 25px 25px;
+    position: center;
+    max-width: 100%;
+  }
+
+  ul li{
+    font-family:"Outfit", sans-serif;
+    list-style-position: outside;
+    font-weight: 400;
+    height: auto;
+    width: 100%;
+    margin: 0;
+    padding: 5px 5px;
+    color: hsl(30, 10%, 34%);
+  }
+  ul{
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  ul li::marker {
+    color:hsl(332, 51%, 32%) ;
+    font-size: small;
+    margin-left: 0;
+  }
+  ol{
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  ol li{
+    font-family:"Outfit", sans-serif;
+    list-style-position: outside;
+    font-weight: 400;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 5px 5px;
+    color: hsl(30, 10%, 34%);
+  }
+
+  ol li::marker {
+    color: hsl(14, 45%, 36%);
+    font-weight: 700;
+    margin-left: 0;
+  }
+
+  .normal li::marker{
+    color: hsl(14, 45%, 36%);
+    font-weight: 700;
+  }
+
+  span {
+    font-weight: 700;
+    margin-left: 1em;
+    margin-right: 0em;
+    
+  }
+  table {
+    width: 100%;
+    height: auto;
+    border-collapse: collapse;
+    margin: auto;
+  }
+
+   td{
+    font-family: "Outfit", sans-serif;
+    line-height: 40px;
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+    padding-left: 30px;
+  }
+
+  .amount {
+    color: hsl(14, 45%, 36%);
+    font-weight: 600;    
+  }
+
+  .name {
+    color: hsl(30, 10%, 34%);
+  }
+
+  .nutrition {
+    margin: 30px 30px;
+    
+  }
+
+  hr{
+    margin: 25px 25px;
+    border-color:hsl(30, 18%, 87%);
+  }
+
+  @media only screen and (min-width: 992px) {
+    .container {
+      width: 80%;
+      margin: auto;
+      height: auto;
+      padding: 40px 40px;
+    }
+
+    body{
+      width: 80%;
+      margin: auto;
+      height: auto
+    }
+  }
+
+
+
+  @media only screen and (max-width: 375px) {
+    .container {
+      width: 100%;
+      margin: auto;
+      padding-top: 0;
+      height: auto;
+    }
+  }
+
+
+
+
